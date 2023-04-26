@@ -10,7 +10,7 @@ class TextbasedPizzaOrder:
         self.customer_address = {}
 
     def start_order(self):
-        print("Hi, WELCOME TO OUR TEXT BASED PIZZA ORDERING")
+        print("***Hi, WELCOME TO OUR TEXT BASED PIZZA ORDERING***")
 
         for pizza in self.available_pizza:
             print(pizza)
