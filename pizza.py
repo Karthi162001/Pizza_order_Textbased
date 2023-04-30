@@ -18,7 +18,7 @@ class TextbasedPizzaOrder:
 
         while True:
             print()
-            pizza = input("Which pizza you would like to order? ")
+            pizza = input("Which Pizza You Would Like To Order? ")
             global pizza_count
             pizza_count = int(input("How many pizza you want to order? "))
 
