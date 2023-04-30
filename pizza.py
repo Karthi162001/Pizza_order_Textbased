@@ -11,14 +11,14 @@ class TextbasedPizzaOrder:
 
     def start_order(self):
         print("***Hi, WELCOME TO OUR TEXT BASED PIZZA ORDERING***")
-        print("Let's Order Now...")
+        print("Let's Order Now!...")
 
         for pizza in self.available_pizza:
             print(pizza)
 
         while True:
             print()
-            pizza = input("Which pizza you would like to order? ")
+            pizza = input("Which Pizza You Would Like To Order? ")
             global pizza_count
             pizza_count = int(input("How many pizza you want to order? "))
 
