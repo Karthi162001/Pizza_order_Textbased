@@ -11,7 +11,7 @@ class TextbasedPizzaOrder:
 
     def start_order(self):
         print("***Hi, WELCOME TO OUR TEXT BASED PIZZA ORDERING***")
-        print("Let's Order Now...")
+        print("Let's Order Now!...")
 
         for pizza in self.available_pizza:
             print(pizza)
